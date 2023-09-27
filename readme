@@ -1,0 +1,15 @@
+Automation Task
+
+Steps to Install and Run 
+1- install IntelliJ IDEA Community Edition 2022.3.1 
+2- download and open the project on the local machine 
+3- Open the project with Intellij 
+4- wait for the IDE to install the required plugins and dependencies of the Project
+
+How to run your test cases from Maven to generate the report 
+1- click on the maven tab on the top right of IntelliJ 
+2- expand the project name then expand "Lifecycle" 
+3- Double-click on "clean" to remove the "target" folder if it was found before 
+4- Double-click on "verify" and wait for the execution to be finished 
+5- after execution, a new "target" folder will be created including the test execution report 
+6- open "target" folder > "cucumber-HTML-reports" folder > "overview-features.html" file > open this file in HTML Browser
